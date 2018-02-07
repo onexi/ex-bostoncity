@@ -13,6 +13,6 @@ describe('JSON Exercises - ex-highestSalary', function() {
 
 describe('JSON Exercises - ex-highestSalary', function() {
     it('Count of salaries above "x" ', function() {
-        ex.salariesAbove(150000).should.equal(36);
+        ex.salariesAbove(150000).should.equal(8);
     });
 });

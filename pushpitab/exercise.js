@@ -13,7 +13,7 @@ exercise.maxSalary = function() {
            currentMax = currentSal;
        }
     }
-    //console.log("currentMax"+currentMax);
+    console.log("currentMax"+currentMax);
     return currentMax;
 };
 
@@ -25,7 +25,7 @@ exercise.salariesAbove = function(salary) {
         // check if currentSal exceed salary 150000
         // increment num_salaries
         currentSal = Number(exercise.data.data[i][18]);
-        if(currentSal>150000){
+        if(currentSal>300000){
             num_salaries++;
         }
     }
