@@ -14,7 +14,7 @@ exercise.maxSalary = function() {
            currentMax = currentSal;
        }
     }
-    console.log("currentMax"+currentMax)
+    //console.log("currentMax"+currentMax);
     return currentMax;
 };
 

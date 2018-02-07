@@ -267,6 +267,70 @@
                 }
             ],
             "passes": []
+        },
+        {
+            "stats": {
+                "suites": 2,
+                "tests": 2,
+                "passes": 0,
+                "pending": 0,
+                "failures": 2,
+                "start": "2018-02-07T01:43:11.862Z",
+                "end": "2018-02-07T01:43:11.909Z",
+                "duration": 47
+            },
+            "tests": [
+                {
+                    "title": "Finds the largest salary",
+                    "fullTitle": "JSON Exercises - ex-highestSalary Finds the largest salary",
+                    "duration": 33,
+                    "currentRetry": 0,
+                    "err": {
+                        "stack": "ReferenceError: console is not defined\n    at Object.exercise.maxSalary (evalmachine.<anonymous>:17:5)\n    at Context.<anonymous> (test\\test.js:10:12)",
+                        "message": "console is not defined"
+                    }
+                },
+                {
+                    "title": "Count of salaries above \"x\" ",
+                    "fullTitle": "JSON Exercises - ex-highestSalary Count of salaries above \"x\" ",
+                    "duration": 5,
+                    "currentRetry": 0,
+                    "err": {
+                        "message": "expected 0 to equal 36",
+                        "showDiff": true,
+                        "actual": 0,
+                        "expected": 36,
+                        "stack": "AssertionError: expected 0 to equal 36\n    at Context.<anonymous> (test\\test.js:16:41)"
+                    }
+                }
+            ],
+            "pending": [],
+            "failures": [
+                {
+                    "title": "Finds the largest salary",
+                    "fullTitle": "JSON Exercises - ex-highestSalary Finds the largest salary",
+                    "duration": 33,
+                    "currentRetry": 0,
+                    "err": {
+                        "stack": "ReferenceError: console is not defined\n    at Object.exercise.maxSalary (evalmachine.<anonymous>:17:5)\n    at Context.<anonymous> (test\\test.js:10:12)",
+                        "message": "console is not defined"
+                    }
+                },
+                {
+                    "title": "Count of salaries above \"x\" ",
+                    "fullTitle": "JSON Exercises - ex-highestSalary Count of salaries above \"x\" ",
+                    "duration": 5,
+                    "currentRetry": 0,
+                    "err": {
+                        "message": "expected 0 to equal 36",
+                        "showDiff": true,
+                        "actual": 0,
+                        "expected": 36,
+                        "stack": "AssertionError: expected 0 to equal 36\n    at Context.<anonymous> (test\\test.js:16:41)"
+                    }
+                }
+            ],
+            "passes": []
         }
     ]
 }
