@@ -471,6 +471,65 @@
                 }
             ],
             "passes": []
+        },
+        {
+            "stats": {
+                "suites": 2,
+                "tests": 2,
+                "passes": 1,
+                "pending": 0,
+                "failures": 1,
+                "start": "2018-02-07T01:52:07.643Z",
+                "end": "2018-02-07T01:52:07.692Z",
+                "duration": 49
+            },
+            "tests": [
+                {
+                    "title": "Finds the largest salary",
+                    "fullTitle": "JSON Exercises - ex-highestSalary Finds the largest salary",
+                    "duration": 35,
+                    "currentRetry": 0,
+                    "err": {}
+                },
+                {
+                    "title": "Count of salaries above \"x\" ",
+                    "fullTitle": "JSON Exercises - ex-highestSalary Count of salaries above \"x\" ",
+                    "duration": 4,
+                    "currentRetry": 0,
+                    "err": {
+                        "message": "expected 0 to equal 36",
+                        "showDiff": true,
+                        "actual": 0,
+                        "expected": 36,
+                        "stack": "AssertionError: expected 0 to equal 36\n    at Context.<anonymous> (test\\test.js:16:41)"
+                    }
+                }
+            ],
+            "pending": [],
+            "failures": [
+                {
+                    "title": "Count of salaries above \"x\" ",
+                    "fullTitle": "JSON Exercises - ex-highestSalary Count of salaries above \"x\" ",
+                    "duration": 4,
+                    "currentRetry": 0,
+                    "err": {
+                        "message": "expected 0 to equal 36",
+                        "showDiff": true,
+                        "actual": 0,
+                        "expected": 36,
+                        "stack": "AssertionError: expected 0 to equal 36\n    at Context.<anonymous> (test\\test.js:16:41)"
+                    }
+                }
+            ],
+            "passes": [
+                {
+                    "title": "Finds the largest salary",
+                    "fullTitle": "JSON Exercises - ex-highestSalary Finds the largest salary",
+                    "duration": 35,
+                    "currentRetry": 0,
+                    "err": {}
+                }
+            ]
         }
     ]
 }
