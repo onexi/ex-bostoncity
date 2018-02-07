@@ -648,6 +648,59 @@
                     "err": {}
                 }
             ]
+        },
+        {
+            "stats": {
+                "suites": 2,
+                "tests": 2,
+                "passes": 1,
+                "pending": 0,
+                "failures": 1,
+                "start": "2018-02-07T02:05:01.590Z",
+                "end": "2018-02-07T02:05:01.706Z",
+                "duration": 116
+            },
+            "tests": [
+                {
+                    "title": "Finds the largest salary",
+                    "fullTitle": "JSON Exercises - ex-highestSalary Finds the largest salary",
+                    "duration": 61,
+                    "currentRetry": 0,
+                    "err": {
+                        "stack": "ReferenceError: console is not defined\n    at Object.exercise.maxSalary (evalmachine.<anonymous>:16:5)\n    at Context.<anonymous> (test\\test.js:10:12)",
+                        "message": "console is not defined"
+                    }
+                },
+                {
+                    "title": "Count of salaries above \"x\" ",
+                    "fullTitle": "JSON Exercises - ex-highestSalary Count of salaries above \"x\" ",
+                    "duration": 41,
+                    "currentRetry": 0,
+                    "err": {}
+                }
+            ],
+            "pending": [],
+            "failures": [
+                {
+                    "title": "Finds the largest salary",
+                    "fullTitle": "JSON Exercises - ex-highestSalary Finds the largest salary",
+                    "duration": 61,
+                    "currentRetry": 0,
+                    "err": {
+                        "stack": "ReferenceError: console is not defined\n    at Object.exercise.maxSalary (evalmachine.<anonymous>:16:5)\n    at Context.<anonymous> (test\\test.js:10:12)",
+                        "message": "console is not defined"
+                    }
+                }
+            ],
+            "passes": [
+                {
+                    "title": "Count of salaries above \"x\" ",
+                    "fullTitle": "JSON Exercises - ex-highestSalary Count of salaries above \"x\" ",
+                    "duration": 41,
+                    "currentRetry": 0,
+                    "err": {}
+                }
+            ]
         }
     ]
 }
