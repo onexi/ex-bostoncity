@@ -69,6 +69,76 @@
                 }
             ],
             "passes": []
+        },
+        {
+            "stats": {
+                "suites": 2,
+                "tests": 2,
+                "passes": 0,
+                "pending": 0,
+                "failures": 2,
+                "start": "2018-02-07T01:41:18.468Z",
+                "end": "2018-02-07T01:41:18.522Z",
+                "duration": 54
+            },
+            "tests": [
+                {
+                    "title": "Finds the largest salary",
+                    "fullTitle": "JSON Exercises - ex-highestSalary Finds the largest salary",
+                    "duration": 28,
+                    "currentRetry": 0,
+                    "err": {
+                        "message": "expected 415709.53 to equal 254357.58",
+                        "showDiff": true,
+                        "actual": 415709.53,
+                        "expected": 254357.58,
+                        "stack": "AssertionError: expected 415709.53 to equal 254357.58\n    at Context.<anonymous> (test\\test.js:10:31)"
+                    }
+                },
+                {
+                    "title": "Count of salaries above \"x\" ",
+                    "fullTitle": "JSON Exercises - ex-highestSalary Count of salaries above \"x\" ",
+                    "duration": 4,
+                    "currentRetry": 0,
+                    "err": {
+                        "message": "expected 0 to equal 36",
+                        "showDiff": true,
+                        "actual": 0,
+                        "expected": 36,
+                        "stack": "AssertionError: expected 0 to equal 36\n    at Context.<anonymous> (test\\test.js:16:41)"
+                    }
+                }
+            ],
+            "pending": [],
+            "failures": [
+                {
+                    "title": "Finds the largest salary",
+                    "fullTitle": "JSON Exercises - ex-highestSalary Finds the largest salary",
+                    "duration": 28,
+                    "currentRetry": 0,
+                    "err": {
+                        "message": "expected 415709.53 to equal 254357.58",
+                        "showDiff": true,
+                        "actual": 415709.53,
+                        "expected": 254357.58,
+                        "stack": "AssertionError: expected 415709.53 to equal 254357.58\n    at Context.<anonymous> (test\\test.js:10:31)"
+                    }
+                },
+                {
+                    "title": "Count of salaries above \"x\" ",
+                    "fullTitle": "JSON Exercises - ex-highestSalary Count of salaries above \"x\" ",
+                    "duration": 4,
+                    "currentRetry": 0,
+                    "err": {
+                        "message": "expected 0 to equal 36",
+                        "showDiff": true,
+                        "actual": 0,
+                        "expected": 36,
+                        "stack": "AssertionError: expected 0 to equal 36\n    at Context.<anonymous> (test\\test.js:16:41)"
+                    }
+                }
+            ],
+            "passes": []
         }
     ]
 }
