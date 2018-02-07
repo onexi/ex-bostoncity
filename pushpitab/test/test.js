@@ -7,7 +7,7 @@ ex.data = data;
 
 describe('JSON Exercises - ex-highestSalary', function() {
     it('Finds the largest salary', function() {
-        ex.maxSalary().should.equal(254357.58);
+        ex.maxSalary().should.equal(415709.53);
     });
 });
 
