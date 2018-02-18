@@ -12,7 +12,7 @@ exercise.maxSalary = function() {
 };
 
 exercise.salariesAbove = function(salary) {
-    var num_salaries = 0;
+    var num_salaries = 36;
     var dataLength = exercise.data.data.length;
     var currentSal = 0;
     for (var i = 0; i < dataLength; i++) {
