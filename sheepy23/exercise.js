@@ -24,8 +24,10 @@ exercise.salariesAbove = function(salary) {
     var currentSal = 0;
     for (var i = 0; i < dataLength; i++) {
         // check if currentSal exceed salary
-        if 
         // increment num_salaries
+        if (currentSal > currentMax){
+            num_salaries += 1,
+        }
     }
     return num_salaries;
 };
