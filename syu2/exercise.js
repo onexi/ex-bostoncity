@@ -15,12 +15,16 @@ exercise.maxSalary = function() {
 };
 
 exercise.salariesAbove = function(salary) {
+    //salary is hardcoded as 150 000 in the html file
     var num_salaries = 0;
     var dataLength = exercise.data.data.length;
     var currentSal = 0;
     for (var i = 0; i < dataLength; i++) {
         // check if currentSal exceed salary
         // increment num_salaries
+        if(exercise.data.data[i][18] > salary){
+            num_salaries = num_salaries + 1
+        }
     }
     return num_salaries;
 };
