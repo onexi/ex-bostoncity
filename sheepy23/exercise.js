@@ -25,6 +25,7 @@ exercise.salariesAbove = function(salary) {
     for (var i = 0; i < dataLength; i++) {
         // check if currentSal exceed salary
         // increment num_salaries
+        currentSal = Number(exercise.data.data[i][18]);
         if (currentSal > 150000){
             num_salaries += 1;
         }
