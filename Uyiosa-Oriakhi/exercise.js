@@ -20,7 +20,7 @@ exercise.salariesAbove = function(salary) {
     var dataLength = exercise.data.data.length;
     var currentSal = 0;
     for (var i = 0; i < dataLength; i++) {
-        if (Number(exercise.data.data[i])>150000){
+        if (Number(exercise.data.data[i][18])>150000){
             num_salaries+=1
         }
         
