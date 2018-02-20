@@ -1,4 +1,3 @@
-foo = "pankhuri";
 var exercise = {};
 // calculate the maximum salary
 exercise.maxSalary = function() {
