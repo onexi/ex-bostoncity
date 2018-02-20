@@ -3,16 +3,17 @@ var exercise = {};
 exercise.maxSalary = function() {
     var currentMax = 0.0;
     var dataLength = exercise.data.data.length;
+    console.log(dataLength);
     for (var i = 0; i < dataLength; i++) {
        
-        if(Number(exercise.data.data[i][18])>currentMax);
-          {
-            console.log(currentMax);  
-            currentMax=(exercise.data.data[i][18]);
+        if(Number(exercise.data.data[i][18])>currentMax)
+             {
+            console.log(currentMax);
+            currentMax=exercise.data.data[i][18];
             }
         
     }
-
+    console.log("final return "+currentMax);
     return currentMax;
 };
 
