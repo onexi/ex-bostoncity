@@ -2,7 +2,9 @@
     "name": "ex-bostoncity",
     "description": "ex-bostoncity",
     "author": "prof",
-    "keywords": ["ex-bostoncity"],
+    "keywords": [
+        "ex-bostoncity"
+    ],
     "version": "1.0.0",
     "main": "index.js",
     "license": "MIT",
