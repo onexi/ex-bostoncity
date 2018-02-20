@@ -22,8 +22,15 @@ exercise.salariesAbove = function(salary) {
     var dataLength = exercise.data.data.length;
     var currentSal = 0;
     for (var i = 0; i < dataLength; i++) {
+
+        var currentSal = Number(exercise.data.data[i][18]);
         // check if currentSal exceed salary
         // increment num_salaries
+
+        if(currentSal > salary)
+        {
+            num_salaries += 1;
+        }
     }
     return num_salaries;
 };
