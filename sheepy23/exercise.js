@@ -5,9 +5,16 @@ exercise.maxSalary = function() {
     var dataLength = exercise.data.data.length;
     for (var i = 0; i < dataLength; i++) {
         // update current salary
+        var currentSalary = Number(exercise.data.data[i][18]);
         // store in currentMax if it is greater than currentMax
+        var currentMax = 0;
+        if (currentSalary > Number(exercise.data.data[i+1][18])){
+            currentMax = currentSalary;
+        } else {
+            currentMax = Number(exercise.data.data[i+1][18]
+        }
     }
-
+    
     return currentMax;
 };
 
